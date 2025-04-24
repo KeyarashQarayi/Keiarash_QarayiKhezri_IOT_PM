@@ -199,8 +199,8 @@ a.create_group('room')
 a.create_multiple_devices('parking', 'lamps', 40)
 
 # *******************************Task-3*********************************
-admine = AdminPanel()
-admine.create_group("parking")
-admine.create_sensor("parking", "temperature", "T-01")
-admine.create_sensor("parking", "humidity", "H-01")
-admine.get_status_sensor_in_group("parking")
+admin = AdminPanel()
+admin.create_group("parking")
+admin.create_sensor("parking", "temperature", "T-01")
+admin.create_sensor("parking", "humidity", "H-01")
+admin.get_status_sensor_in_group("parking")
